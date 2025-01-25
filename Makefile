@@ -2,7 +2,7 @@ program_name := list
 COMPILATOR := g++
 compile_flags := -c -O0 -g -std=c++20
 link_flags := 
-sources := list.cpp libnode.cpp liblist.cpp libiterator.cpp libfunctions.cpp
+sources :=lists.cpp
 objects := $(sources:.cpp=.o)
 	
 main: $(program_name)

@@ -2,8 +2,10 @@
 #include <memory>
 #include <initializer_list>
 
+#include "libnode.hpp"
 #include "liblist.hpp"
 #include "libfunctions.hpp"
+#include "libiterator.hpp"
 
 int main()
 {
